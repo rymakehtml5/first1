@@ -1,0 +1,11 @@
+	div {color: orange;background-color: gray ; border: 1px solid black; width: 90%;margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px;} /*Phone view by default*/
+	p#atrib1 {color: white; background-color: red; }
+	p#atrib2 {color: white; background-color: blue; }
+	p#atrib3 {color: white; background-color: green; }
+
+	div > p {position: relative;  text-align: center; border: 1px solid black; margin-left: 1px; margin-right: 1px; margin-top: 1px; margin-bottom: 1px;background-position: relative; left: 60%; max-width: 40%;/*background-position and max-width must total to exactly 100%*/}
+
+
+	@media screen and (min-width: 768px){div {display: inline-block; width: 40%; } div#last{width: 80%}}/*for tablet view*/
+
+	@media screen and (min-width: 992px){div {display: inline-block;  width: 30%; } div#last{display: inline-block;  width: 30%;}}/*for desktop view*/
