@@ -1,0 +1,21 @@
+
+body{
+	background-color: lightblue;
+}
+
+section{
+	background-color: white;
+	margin: 10px;
+}
+
+#drop-down{
+	background-color: tan;
+	border-radius: 0;
+	border: 0;
+}
+
+#mobile-nav{
+	background-color: lightgreen;
+	border-radius: 0;
+	border: 0;
+}
